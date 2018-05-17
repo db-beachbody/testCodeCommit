@@ -6,4 +6,4 @@ phases:
       - env
       - git branch
       - echo "TEST"
-#      - echo "TESTBRANCH"
+      - echo "TESTBRANCH"
