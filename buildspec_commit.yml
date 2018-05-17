@@ -9,3 +9,4 @@ phases:
       - echo "TEST"
       - echo "TESTBRANCH"
       - cat buildspec_commit.yml
+      - git log |head
