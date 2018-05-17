@@ -4,6 +4,8 @@ phases:
   build:
     commands:
       - env
+      - git checkout ${CODEBUILD_SOURCE_VERSION}
       - git branch
       - echo "TEST"
       - echo "TESTBRANCH"
+      - cat buildspec_commit.yml
